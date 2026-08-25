@@ -7,7 +7,7 @@
   --bg-light:  #F4F2ED;
   --ink:       #ECE8DF;
   --ink-dim:   #9BA1A6;
-  --ink-dark:  #22252A;
+  --ink-dark:  #000000;
   --ink-dark-dim: #6B7076;
   --red:       #E6391F;
   --red-dim:   #E6391F26;
@@ -158,6 +158,9 @@ h1,h2,h3{ font-family:var(--font-display); font-weight:600; letter-spacing:0.01e
 .hero__stats dd{ font-family:var(--font-mono); font-size:0.72rem; color:var(--ink-dim); letter-spacing:0.06em; text-transform:uppercase; margin-top:4px; }
 
 /* ============ ABOUT ============ */
+.about .section__head h2{
+  color: #000000;
+}
 .about{ background:var(--bg-light); color:var(--ink-dark); }
 .about__grid{ display:grid; grid-template-columns:0.9fr 1.1fr; gap:64px; }
 .about__body p{ color:#3f4448; margin-bottom:18px; max-width:560px; }
@@ -173,6 +176,9 @@ h1,h2,h3{ font-family:var(--font-display); font-weight:600; letter-spacing:0.01e
 .mission cite{ font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-dim); font-style:normal; }
 
 /* ============ PRODUCTS ============ */
+.products .section__head h2{
+  color: #000000;
+}
 .products{ background:var(--bg-light); color:var(--ink-dark); padding-top:0; }
 .cards{ display:grid; grid-template-columns:repeat(3, 1fr); gap:24px; margin-top:48px; }
 .card{
